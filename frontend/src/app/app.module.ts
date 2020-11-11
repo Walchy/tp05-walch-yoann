@@ -16,6 +16,7 @@ import {RecapitulatifComponent} from './components/recapitulatif/recapitulatif.c
 import {CompteFormComponent} from './components/compte-form/compte-form.component';
 import {FormatPhoneNumberPipe} from './components/format-phone-number.pipe';
 import {ControlPascalCaseDirective} from './components/control-pascal-case.directive';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {ControlPascalCaseDirective} from './components/control-pascal-case.direc
     CompteFormComponent,
     RecapitulatifComponent,
     ControlPascalCaseDirective,
-    FormatPhoneNumberPipe
+    FormatPhoneNumberPipe,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

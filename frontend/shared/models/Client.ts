@@ -10,5 +10,4 @@ export interface Client {
   pays: string;
   password: string;
   login: string;
-  passwordConfirmation: string;
 }
